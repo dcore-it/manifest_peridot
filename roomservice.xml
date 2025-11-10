@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="peridot"
-           fetch="https://github.com/PeridotSupremacy"
-           revision="lineage-23.0" />
-
-  <remote name="Soverzion-HQ"
-           fetch="https://gitea.com/Soverzion-HQ" />
-
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="peridot" />
-
-  <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="peridot" />
-  <project path="vendor/xiaomi/peridot" name="vendor_xiaomi_peridot" remote="peridot" />
-
-  <project path="kernel/xiaomi/sm8635" name="kernel_xiaomi_sm8635" remote="peridot" />
-  <project path="kernel/xiaomi/sm8635-modules" name="kernel_xiaomi_sm8635-modules" remote="peridot" />
-  <project path="kernel/xiaomi/sm8635-devicetrees" name="kernel_xiaomi_sm8635-devicetrees" remote="peridot" />
-
-  <project path="vendor/lineage-priv" name="vendor_lineage-priv" revision="main" remote="peridot" />  
-
+    <project name="droidcore/xiaomi_peridot"
+        path="device/xiaomi/peridot"
+        remote="github"
+        revision="axion" />
 </manifest>
