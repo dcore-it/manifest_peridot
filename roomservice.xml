@@ -3,5 +3,5 @@
     <project name="droidcore/xiaomi_peridot"
         path="device/xiaomi/peridot"
         remote="github"
-        revision="axion" />
+        revision="avium" />
 </manifest>
