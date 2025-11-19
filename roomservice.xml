@@ -3,5 +3,5 @@
     <project name="droidcore/device_xiaomi_peridots"
         path="device/xiaomi/peridot"
         remote="github"
-        revision="evolut" />
+        revision="mica" />
 </manifest>
